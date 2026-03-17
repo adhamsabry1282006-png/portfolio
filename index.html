@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Adham.S</title>
+    <link rel="icon" href="LOGOO.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="bg-lins">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <header>
+        <nav class="container">
+            <a href="#" class="logo"><img class="logo-1" src="img1.jpg" alt="Logo"></a>
+            <div class="links" id="links">
+                <span class="close_menu" onclick="open_colos_menu()"><i class="fa-solid fa-xmark"></i></span>
+                <a class="active" onclick="open_colos_menu()">Home</a>
+                <a href="#about" onclick="open_colos_menu()">About</a>
+                <a href="#services" onclick="open_colos_menu()">Services</a>
+                <a href="#projects" onclick="open_colos_menu()">Projects</a>
+                <a href="#contact" onclick="open_colos_menu()">Contact</a>
+            </div>
+
+            <div class="icons">
+                <a href="https://www.facebook.com/share/14PuF8r4551/"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/2001097606276"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/adhamsabry238"><i class="fa-brands fa-instagram"></i></a>
+                <span class="icon_menu" onclick="open_colos_menu()"><i class="fa-solid fa-bars"></i></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="text-0">
+                <h4>WELCOME TO MY WORLD</h4>
+                <h1>I'M <span>ADHAM</span></h1>
+                <h2><span>Frontend Developer</span></h2>
+                <p>I specialize in crafting high-performance, interactive, and fully responsive websites. 
+                   My mission is to transform complex ideas into elegant digital solutions with clean code and modern aesthetics.
+                </p>
+                <div class="btns">
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="#projects" class="btn-cv">View Portfolio</a>
+                </div>
+            </div>
+            <div class="img-0">
+                <img class="person" src="img.jpeg" alt="Adham">
+            </div>
+        </div>
+    </section>
+
+    <section class="About-0" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="heading">PROFESSIONAL SUMMARY</h2>
+                <h3 class="sub-heading">Engineering Digital Experiences that Matter</h3>
+                <p class="description">
+                    I am a dedicated web developer with expertise in <span class="highlight">HTML, CSS, JavaScript</span><span class="highlight"></span>. 
+                    I focus on building <span class="highlight">scalable code</span>, optimizing <span class="highlight">user experiences (UX)</span>, and designing intuitive <span class="highlight">user interfaces (UI)</span>. 
+                    One of my milestone projects is <span class="highlight">'Tafaseel'</span>, an e-commerce platform for handicrafts, where I successfully integrated artistic design with robust functionality.
+                </p>
+              
+                <a href="d:\project web\ADHAM CV.pdf" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="title">
+                
+                <h2><span>My Expertise</span></h2>
+            </div>
+            <div class="services-boxes">
+                <div class="service-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building high-quality, custom websites tailored to your specific needs.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h3>UI/UX Strategy</h3>
+                    <p>Designing interfaces that are visually stunning and easy to navigate.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Ensuring your site looks flawless on every device, from mobile to desktop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="title">
+                <h5>My Portfolio</h5>
+                <h2><span>Latest Projects</span></h2>
+            </div>
+            <div class="projects-boxes">
+                <div class="project-card">
+                    <img src="d:\project web\emg_tafaseel.png.jpeg" alt="Tafaseel Platform">
+                    <div class="project-info">
+                        <h3>Tafaseel - E-commerce</h3>
+                        <p>A specialized platform for authentic handicrafts and antiques, featuring a seamless shopping experience and modern UI.</p>
+                        <div class="btns">
+                            <a href="https://emad168.github.io/tafaseel.com/" class="btn">Live Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="title">
+                <h5>Available For Projects</h5>
+                <h2><span>Get In Touch</span></h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:almasryadham601@gmail.com">almasryadham601@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i><a href="tel:+2001097606276">+20 109 760 6276</a></p>
+                    <p><i class="fa-solid fa-location-dot"></i>Shebin ElKom, Al-Minufiyah, Egypt</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea placeholder="Your Message" rows="6" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="js.js"></script>
+</body>
+</html>
